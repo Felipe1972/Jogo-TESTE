@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+#raquete1 {
+    color: blue;
+    background-color: blue;
+}
+
+.game-container {
+    position: relative;
+    background-color: green;
+    border: 1rem solid white;
+    position: relative;
+}
+
+#gameCanvas {
+    border: 2px solid #fff;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+ 
